@@ -11,4 +11,17 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 45px;
+}
+
+p {
+    text-align: center;
 }
