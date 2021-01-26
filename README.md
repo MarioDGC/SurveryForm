@@ -1,2 +1,2 @@
-# SurveryForm
+# SurveyForm
 freeCodeCamp project
