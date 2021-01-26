@@ -15,53 +15,78 @@
         <p id="description"> Thank you for taking the time to help us improve the platform</p>
 
         <section>
-            <form action="" id="survery-form">
-                <label for="name" id="name-label">Name</label>
-                <input type="text" name="" id="name" placeholder="Enter your name" requiered>
-                <label for="email" id="email-label">Email</label>
-                <input type="email" name="" id="email" placeholder="Enter your Email" requiered>
-                <label for="number" id="number-label">Age (optional)</label>
-                <input type="number" name="" id="number" placeholder="Age" max="10" min="5">
-                <label for="name">Which option best describes your current role?</label>
-                <select name="" id="dropdown">
-                    <option value="">Select current role</option>
-                    <option value="">Student</option>
-                    <option value="">Full Time Job</option>
-                    <option value="">Full Time Learner</option>
-                    <option value="">Prefer not to say</option>
-                    <option value="">Other</option>
-                </select>
-                <fieldset>
-                    <legend>Would you recommend freeCodeCamp to a friend?</legend>
-                    <input id="newbie" type="radio" name="recomendation" value="newbie">
-                    <label for="newbie">Definitely</label><br>
-                    <input id="intermediate" type="radio" name="recomendation" value="intermediate">
-                    <label for="intermediate">Maybe</label><br>
-                    <input id="master" type="radio" name="recomendation" value="master">
-                    <label for="master">Not sure</label>
-                </fieldset>
+            <form action="#" id="survey-form">
+                <div>
+                    <label for="name" id="name-label">Name</label>
+                    <input type="text" name="" id="name" placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <label for="email" id="email-label">Email</label>
+                    <input type="email" name="" id="email" placeholder="Enter your Email" required>
+                </div>
+                <div>
+                    <label for="number" id="number-label">Age (optional)</label>
+                    <input type="number" name="" id="number" placeholder="Age" max="10" min="5">
+                </div>
+                <div>
+                    <label for="name">Which option best describes your current role?</label>
+                    <select name="" id="dropdown">
+                        <option value="">Select current role</option>
+                        <option value="">Student</option>
+                        <option value="">Full Time Job</option>
+                        <option value="">Full Time Learner</option>
+                        <option value="">Prefer not to say</option>
+                        <option value="">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Would you recommend freeCodeCamp to a friend?</legend>
+                        <label for="newbie">
+                            <input id="newbie" type="radio" name="recomendation" value="newbie"> Definitely</label>
+                        <label for="intermediate">
+                            <input id="intermediate" type="radio" name="recomendation" value="intermediate">
+                            Maybe</label>
+                        <label for="master">
+                            <input id="master" type="radio" name="recomendation" value="master"> Not sure</label>
+                    </fieldset>
+                </div>
+                <div>
+                    <label for="Front-end Projects"><input id="Front-end Projects" type="checkbox" name=""
+                            value="front"> Front-end
+                        Projects</label>
+                    <label for="Back-end Projects"><input id="Back-end Projects" type="checkbox" name="" value="back">
+                        Back-end
+                        Projects</label>
+                    <label for="Data Visualization"><input id="Data Visualization" type="checkbox" name=""
+                            value="visual"> Data
+                        Visualization</label>
+                    <label for="Challenges"><input id="Challenges" type="checkbox" name="" value="challenge">
+                        Challenges</label>
+                    <label for="Open Source Community"><input id="Open Source Community" type="checkbox" name=""
+                            value="open"> Open
+                        Source
+                        Community</label>
+                    <label for="Gitter help rooms"><input id="Gitter help rooms" type="checkbox" name="" value="gitter">
+                        Gitter
+                        help
+                        rooms</label>
+                    <label for="Videos"><input id="Videos" type="checkbox" name="" value="vedideos"> Videos</label>
+                    <label for="City Meetups"><input id="City Meetups" type="checkbox" name="" value="City"> City
+                        Meetups</label>
+                    <label for="Wiki"><input id="Wiki" type="checkbox" name="" value="wiki"> Wiki</label>
+                    <label for="Forum"><input id="Forum" type="checkbox" name="" value="Forum"> Forum</label>
+                    <label for="Additional"><input id="Additional" type="checkbox" name="" value="additional">
+                        Additional
+                        Courses</label>
+                </div>
+                <div>
+                    <label for="">Any comments or suggestions?</label>
 
-                <label for="Front-end Projects"><input id="loving" type="checkbox" name="" value="front"> Front-end
-                    Projects</label>
-                <label for="Back-end Projects"><input id="loving" type="checkbox" name="" value="back"> Back-end
-                    Projects</label>
-                <label for="Data Visualization"><input id="loving" type="checkbox" name="" value="visual"> Data
-                    Visualization</label>
-                <label for="Challenges"><input id="loving" type="checkbox" name="" value="challenge"> Challenges</label>
-                <label for="Open Source Community"><input id="loving" type="checkbox" name="" value="open"> Open Source
-                    Community</label>
-                <label for="Gitter help rooms"><input id="loving" type="checkbox" name="" value="gitter"> Gitter help
-                    rooms</label>
-                <label for="Videos"><input id="loving" type="checkbox" name="" value="vedideos"> Videos</label>
-                <label for="City Meetups"><input id="loving" type="checkbox" name="" value="City"> City Meetups</label>
-                <label for="Wiki"><input id="loving" type="checkbox" name="" value="wiki"> Wiki</label>
-                <label for="Forum"><input id="loving" type="checkbox" name="" value="Forum"> Forum</label>
-                <label for="Additional"><input id="loving" type="checkbox" name="" value="additional"> Additional
-                    Courses</label>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+                </div>
 
-                <label for="">Any comments or suggestions?</label>
-
-                <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+                <button type="submit" id="submit">Submit</button>
             </form>
         </section>
     </main>
