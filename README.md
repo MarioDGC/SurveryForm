@@ -8,7 +8,4 @@ freeCodeCamp project
 
 
 ## Demo
-
-http://github.com - automatic!
-[GitHub](http://github.com)
-https://mariodgc.github.io/SurveyForm/
+[Survey Form](https://mariodgc.github.io/SurveyForm/)
